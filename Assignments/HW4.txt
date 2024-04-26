@@ -1,0 +1,35 @@
+ # Goals
+  *	Use C++ to read data from a text file and create an array of numbers.
+  *	Use the C++ ‘fstream’ library functions to open, read and close a text file.
+  *	You can use the C++ ‘iomanip’ library to format your output and manage whitespace on your input.
+  *	Graduate students must create and write the data to a new text file. This is a challenge for the undergrads.
+
+# 	Your assignment is to create a program that does the following:
+  *	You will need to create a new file (you can do this in the file system – make it plain text) and call it mydata.txt. I have already created it for you here.
+  *	There is a column of numbers in the text file that you must read into your array. Pay attention to type – make sure they have all the decimal places shown.
+  *	Based on the examples in the slides (L3) and the textbook, write a C++ program, include ‘iostream’ and ‘fstream’. You might need ‘iomanip’. 
+  *	Your program should read the numbers from the file and store them in a vector or an array of the appropriate type. Your vector or array should be able to hold up to 35 values, but there might be 35 or fewer in the file, so keep track of how many you read from the file.
+  *	Next, write a loop to process the vector or array in reverse order. In the loop do the following:
+    *	Before you enter the loop, put a title at the top of the console showing the label(s) for your data.
+    *	In the loop. print each number in the array to the console in reverse order. 
+    *	Calculate the following using the numbers in the array.
+      *	Start with 100,000.00 in your answer variable of the correct type. 
+        *	Divide the answer variable by the last number in the array.
+        *	Then multipy the answer variable by the second to last number in the array.
+        *	Keep alternating division and multiplication by each number until your loop ends. 
+      *	Print the final answer at the bottom of your program just before the closing message. Clearly label this answer.
+		*	Graduate Students must also print the output to a new text file called output.txt (already created here).
+		* Follow Professional Standards: For details on how programming style, see the Programming Style Guide. Put your name in your program block comment at the top. Use logical variable names and function names – do not make me guess. Indent properly. Greet the user with the name of the program, and your name. Indicate that the program ended normally by saying Bye or thanking the user for using your program. Do not forget the block comments for each function. Use in-line comments as required.
+		* Optional Challenge for undergrads (required for Graduate Students)
+   	* Print the output to a new text file called output.txt for an extra point.
+
+Due as shown in Canvas by 11:59 pm
+ 
+***Submitting your program in Replit.com***
+* Click the run button above the code, the output appears in the right side (black background).
+* On the left there is a checkmark, click this and choose Run Tests. When you run the tests you will see either passed or failed and you will have the option to see how your program output is different from the test.
+* Replit.com has an automated testing system that checks your program output against my solution. Please note: if your numbers are right but the number of decimal places or dialog is different, don't worry. This is a guide to check if you did the math correctly.
+* Replit.com will show you where your output is not the same as what was expected (click the button). If the differences are superficial, you can submit your program and I will give you the credit you earned.
+* However, it is not enough to match the output. If your program does not follow the requirements you will not get full credit. Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), you should have comment blocks and in-line comments as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc. See the Programming Style Guide for more information. 
+* The submit button is in the upper right corner. You must submit for me to see your program.
+* Post in the Canvas discussion forum or email the TA or me for help.

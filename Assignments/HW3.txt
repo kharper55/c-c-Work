@@ -1,0 +1,71 @@
+**1 Goals**
+
+- Take input from the keyboard and create series of strings 
+- Write this in C++ and use more than two of the C++ string functions.
+- Use string functions to select and analyze the value of specific characters in the string.
+- Compare the value of the string and use it to control the behavior of the program
+- Edit the contents of the string in place. Do not make a copy by concatenating substrings.
+
+**2** **Program Requirements**
+
+**Your assignment is to create a program that does the following:**
+
+a) Take keyboard input of a series of strings from the user and store them in an array of strings. You must use the string type. Make the array at least 10 strings long.
+
+b) Ask the user to **choose a vowel** and use a basic string function to search for the **the index of the last occurance of this letter in each string** in your array. Challenge: **print out the index(icies) of all occurrences of this letter in each string** in your array.
+
+c) Ask the user to input a word and check if the string(s) in the array match(es) this word using the correct string function or operation. **Print a message saying that the words match that shows the word you searched for in the message.**
+
+d) **Replace the letter chosen by the user in all the strings in your array** without making a new string (no change in memory address being pointed at). 
+
+    i) Allow the user to pick (input) which letter to find and what letter to change it into. 
+    
+    ii) Ask the user to input two letters: a letter to find and the symbol to replace it with.
+
+    iii) Make a loop to go through each string in the array of strings and change some or all the occurrences of a letter (such as ‘g’) into a character of the users choice (such as ‘&’).
+
+     (1) You can do any one of these options: 
+
+           (a) Change the first occurrence of the letter in each string into the character. For maximum grade of B.
+
+           (b) Change the first and last occurrence in each string into the character. For maximum grade of B+.
+
+           (c) Change all the occurrences of the letter into the character. Requires nested loop. For full credit Graduate students must do this.
+
+      iii) Print the edited array.
+
+2) **Follow Professional Standards:** Put your name in your program block comment at the top. Use logical variable names and function names – do not make me guess. Indent properly. Greet the user with the name of the program, and your name. Indicate that the program ended normally by saying Bye or thanking the user for using your program. Do not forget the block comments for each function. Use in-line comments as required.
+
+3) **Optional Challenges – pick one for credit** (up to +2 depending on the sophistication):
+
+    a) Show **higher level of string manipulation ability by writing code to**: 
+
+         i) Sort the array of strings into reverse alpha order (without using built in functions except the comparison functions in the string library), print the sorted strings. 
+
+         ii) Encrypt the data using a substitution cipher at the character level. Do not use Caesar’s Cipher. Pick the letters that will substitute for each letter and put this data into two parallel arrays of characters. Go through each word in the array and encrypt the strings, put the encrypted string into a new array of strings. Print a table with the original and encrypted strings on each row. For example:
+
+  
+
+```
+Original     Encrypted   
+```
+
+```
+Mary          zgms
+```
+
+```
+One            xjb
+```
+
+**Test and Submit your program in the assignment in Replit.com Teams for Education**
+
+1. Click the **run button** above the code, **the output appears on the right side of the window in the console tab** (black background). 
+
+2. To check your results against the test I set up, choose the **check mark** on the left side of the screen to get to Input/Output Tests. Choose the **Run Tests** button, this will take a few seconds to complete. You will be able to choose **Results** to see the expected output vs your output. Do not worry if there are small differences, I will check this when I review your submission.
+
+· Replit.com has an automated testing system that **checks your program output against my solution**. This will not test the bonus challenges.
+
+· **Note, it is not enough to match the output. If your program does not follow the requirements you will not get full credit.** Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), have professional comment blocks, and in-line comments as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc.
+
+4. Once you are done, use the submit button on the upper right corner to submit your code for grading. _If you do not submit the code, I don't know that it is ready for review._

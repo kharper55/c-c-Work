@@ -1,0 +1,97 @@
+# Requirements for Hwk 1: Introductions 
+
+Replit.com has an automated testing system that **checks your program output against my solution**. When you submit your program, Replit.com will check your output, but **it is not enough to match the output. The program must be written correctly, and it must meet every requirement fully.**
+
+**You are encouraged to ask me questions about what I want.** Asking other people (such as friends or the TA) is not going to be as successful, they may not have the right information.
+
+**All programming for this assignment must be performed entirely in Replit.com, no external IDE. Failure to do so will result in a 0% grade.**
+
+
+## Goals
+
+* Write a program in C++ from scratch to print numeric, character, and string data using variables and literals.
+
+* Use keyboard input in this program.
+
+* Use a selection statement and a loop.
+
+* Learn to be customer focused by paying close attention to the requirements, asking questions, and implementing them to the customer’s (your instructor's) satisfaction.
+
+
+## Program 1: Introductions
+
+**Your assignment is to create a C++ program that does the following:**
+
+1. Put a block comment at the top, make sure it has the program file name (e.g. main.cpp), your name as the author on a separate line, the date created and a description of what the program is doing (). Syntax for a block comment use “/* … */”.
+
+2. Add the iostream library to your program after the top comment block.
+
+3. Add `using namespace std;` on the next line (this makes your code easier to read and less error prone for beginners because you don't have to specify the library that everything comes from, e.g. `std::cout` becomes `cout`). 
+
+4. Add a second block comment **just above the main() function (you will need a comment block before each function you create).** In it, describe `main()` (see the style guide). At a minimum show the name of the function and describe what the function does. Normally you would have a list of parameters and their types and what they should contain and the return type and explanation of what will be returned. But that is not needed here since your program returns int and has no parameters.
+
+5. Next is your `main()` function with no parameters and a int return type.
+
+6. Inside `main()` do the following:
+    * Declare a new string variable and name it `myMajor`, and initialize it to "Unknown". Use keyboard input to have the user select their major from a list or enter it directly (e.g. Computer Science). Challenge: Validate the data to make sure it is one of the following, Computer Science, Cybersecurity and Networks, Electrical and Computer Engineering or Mathematics.
+
+    * Declare a new integer variable and name it `gradYear`, and initialize it to 0. Use keyboad input to have your user select their graduation year from a list or allow direct input of the year (e.g. 2021). Validate the data by checking to make sure it is between 2022 and 2026.
+
+    * **Skip one line in your program,** so the declarations are easy to find. Sometimes programmers put a line of asterisks or some other character between sections. This program is so small that is not necessary. It is professional to group your variable declarations at the top of your program to make it easier to understand and maintain. There are exceptions, but they are very specific.
+
+    * Add a line of code to print the following greeting precisely "Welcome to Introductions 2022 by _Me_!" Replace the word _Me_ with your name. For example: “Welcome to Introductions 2022 by Liberty Page!”
+
+    * Add the line(s) of code to print "My major is " and followed by myMajor. Notice that the string literal has a space after "is", that is so the text does not run together.
+
+    * On the same line as `myMajor`, add the code to print 2 tabs followed by "I will graduate in " followed gradYear. It should look like this:
+
+    ```
+    My major is Cybersecurity and Networks    I will graduate in 2025 
+    ```
+
+    * Print a **string literal** (not a variable) of a slogan that inspires you (keep it clean, please), and don’t forget to include the name of the person or organization that uses it (identify source). This should be in at least two lines. For example:
+
+    ```
+    Success starts here!
+    ```
+    
+    ```
+    The University of New Haven
+    ```
+
+    * **Optional:** Print a fact that you would like to share with me such as you play on a team or have a musical group or that you work as a machinist. 
+
+    ```
+    I am bilingual, play two musical instruments, and sing. 
+    ```
+    
+    ```
+    I hiked to the top of Mount Washington in New Hampshire three times.
+    ```
+   
+    * End your program with a message, so the user knows it ended without error, "Thank you for using Introductions, bye!".
+
+    * Don't forget to put `return 0;` at the end of main().
+
+    * Run it again and correct the details if it is not neat and attractive. You still have 80% of the work left when you think you are almost done! These fine details take time.
+
+    * For more on programming style, **see the Programming Style Guide in Canvas**.
+ 
+
+## Submitting your program
+
+1. Click the **run button** above the code, **the output appears in the right part of the window** (black background). 
+
+1. The submit button is green and it appears at the top.
+
+1. To test your output, choose the check mark from the left menu. On the Input/Output Tests screen, choose Run Tests. When it is done, you can click Results in the test area and your will either see matched or you will have the option to see how your program output is different from the test.
+
+    * Replit.com has an automated testing system that **checks your program output against my solution**. 
+
+    * Replit.com will show you where your output is not the same as what was expected. **If the only difference is the dialog for your input, submit your program** and I will give you the credit you earned. Do not worry if that is marked as different.
+
+    * **However, it is not enough to match the output. If your program does not follow the requirements you will not get full credit.** Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), have professional comment blocks and in-line comment as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc. 
+
+**Due as shown in Canvas by 11:59 pm.** 
+
+Post to the discussion forum or email me for help. 

@@ -1,0 +1,126 @@
+Replit.com has an automated testing system that **checks your program output against my solution**. When you submit your program, Replit.com will check your output, but **it is not enough to match the output. The program must be written correctly, and it must meet every requirement fully.**
+
+**You are encouraged to ask me questions about what I (your customer) want before/after class or during my office hours.** Asking other people (such as friends or the TA) is not going to be as successful, they may not have the right information. **I change my requirements every year.**
+
+# **1 Goals**
+
+* Create parallel arrays.
+* Populate the array with data using a loop.
+* Calculate statistics on the data in the array using some simple operations of C++.
+* Print the data and some additional information based on the calculations.
+
+# **2 Program Requirements**
+
+**Your assignment is to create a program that does the following:**
+
+1. Create a set of parallel arrays, each pair with the same index go together. `g[0]` and `s[0]` contain related data.
+
+    * The first array has 12 doubles (e.g. `95.25`). This array will hold the exam grade of each stident, give it a name (see the style guide cplusplus.com).
+
+    * The second array has 12 integers, strings, or characters (choose one). This array will hold the a unique identifier for each student, it also needs a logical name.
+
+2. **Write a loop** to allow the **user to put data in the arrays**. The prompt should ask for the student ID and grade on the same line. 
+    The user should enter the data like this: A 21.56
+
+3. **Write a loop** to print the data in from the two arrays in a table format. For example:
+
+```
+Initial   Amount
+```
+
+```
+A           75.35
+```
+
+```
+B           86.50
+```
+
+```
+C           94.75
+```
+
+```
+Etc.
+```
+
+4. **Next create a loop to calculate the following:**
+
+    * Determine the mean and median of this set of scores. Save this information. You might want to sort the data first.
+
+    **Hints:** https://www.mathsisfun.com/median.html and https://www.mathsisfun.com/mean.html and https://www.toptal.com/developers/sorting-algorithms/bubble-sort
+
+    * Identify the top two students and their grades. Hint – you can use the index once they are sorted.
+
+5. **Write a loop** to print the data in from the two arrays in a table format but add a third column for results. The data can be sorted or in the original order. 
+    * Identify the top two students as Highest Grade, and Second Highest Grade.
+
+    * Identify all other students with grades that are above the mean (notice this is different from the median) as "above average grade".
+
+    * At the bottom print the average (mean) grade and the median grade.
+
+  For example:
+
+  ```
+  Initial     Amount     Results
+  ```
+
+  ```
+  A          75.35      
+  ```
+
+  ```
+  B          86.50      Second Highest Grade
+  ```
+
+  ```
+  C          95.75      Highest Grade
+ 
+  ```
+
+  ```
+  G.         81.25      Above Average Grade
+  ```
+ 
+  ```
+  etc.
+  ```
+
+  ```
+  The mean is 80.32, and the median of these scores is 81.50.
+  ```
+
+6. **Follow Professional Standards:** For details see the Programming Style Guide in Canvas. Use logical variable names and function names – do not make me guess. Greet the user with the name of the program and your name. Indicate that the program ended normally by saying Bye or thanking the user for using your program. Use comments as required. Indent properly.
+
+7. **OPTIONAL CHALLENGES:** If you show additional skill, you can get **extra credit for one of the following (up to +2).**
+
+    * Show higher level coding capability by **writing and using one or more function(s) to process the array** with at least two parameters, the address of the head of the array and the number of items in the array. The resulting array must be able to be visible with the correct data in main() after the function has been run without using global variables or data. Global variables are NOT ALLOWED.
+
+      * The function can take user input and store it in the array.
+
+      * The function can print the contents of the array. (up to +1)
+
+      * The function can do the calculations on the data in the array.
+
+# **Due date shown in Canvas by 11:59 pm**
+
+* Run your program and correct the details if it is not neat and attractive. You still have 80% of the work left when you think you are almost done! These fine details take time.
+
+* For more on programming style, **see the Programming Style Guide in Canvas**.
+ 
+
+# 3 Testing and submitting your program
+
+7. Click the **run button** above the code, **the output appears in the right side** (black background). 
+
+8. On the left there is a checkmark, click this and choose Run Tests, When you run the tests you will see either passed or failed and you will have the option to see how your program output is different from the test.
+
+    * Repl.it has an automated testing system that **checks your program output against my solution**. 
+
+    * Repl.it will show you where your output is not the same as what was expected (click the button). **If the differences are superficial, you can submit your program** and I will give you the credit you earned.
+
+    * **However, it is not enough to match the output. If your program does not follow the requirements you will not get full credit.** Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), you should have comment blocks and in-line comments as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc. See the Programming Style Guide for more information.
+
+Post in the Canvas discussion forum or email the TA or me for help.
+
+9. The submit button is in the upper right corner. You must submit for me to see your program.

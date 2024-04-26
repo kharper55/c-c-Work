@@ -1,0 +1,88 @@
+   
+
+# Goals
+
+- Take input from the console and create a string or array or vector of strings. 
+- Use an enumerated type in a C++ program to control the logic based on input.
+- Use the basic string functions to select and analyze the value of specific characters in the string.
+- Use the enumerated type to manage flow of the program and appropriate messages to the user.
+
+# Your assignment is to create a program that does the following
+
+1. Create a C++ program to read data from the keyboard or a text file. Input will be a series of ascii letters, numbers, and symbols.
+
+2. Use an enumerated type to help organize your program and manage the messages to your user. 
+   * A good way to manage the messages is to use the value of the enumerated type variable to select the matching message allowing the programmer to consolidate messages into one array of strings. This can be added to as needed.
+   * For example, create an array/vector of strings of possible messages to print to the user such as: "You entered a letter". Then, use an enumerated type to represent the messages respective indexes. Such as: "messages[myEnum.LETTER_MSG]"
+
+3. Create three separate arrays or vectors: one for the letters, the second for the numbers, and the last for symbols. The array or vector of numbers must be of integer type and letters/symbols of char type.
+
+4. Create an array or vector of strings to hold messages of the type of character a user entered (see point above).
+
+5. Create an enumerated type that has names to match the messages and create a variable using the enumerated type. Use this enumerated data type and variable to access messages to print to the user from the previously created messages array.
+
+6. Repeat the following steps in a loop such as a for loop or a while that ends correctly when the end of file is reached or the user enters '&' to quit.
+
+7. Read the data from the input (file or keyboard) one character at a time and assign a value to your variable of the enumerated type. For example, if the letter is within the range of ascii letters, assign something like "myEnumVar = myCharEnum.LETTER"
+	
+	   * You will have to handle numbers, letter, symbols, and manage whitespace as input.
+	   * Assign a value to your variable of the enumerated type showing the kind of character that was read.
+	   * Example: if the data is a number, you might say myEnum = ISNUMBER;
+	
+8. Use the enumerated type variable to print out a different message for each enumerated type value (remember they have an integer value) from the array or vector of strings.
+	   * Example: if the value of your enumerated type variable equals ISLETTER, you might print to the console the message “A letter was read.” This is performed by using the enum value to access its matching index into the previously created array of messages.
+	   * NOTE: This text is not in the test because it can vary widely, only the lists of data from the array or vectors are tested automatically, the rest will be reviewed manually.
+	
+9. Also use the enumerated type to pick the appropriate action. This action can be as simple as saving the input character into its respective array or vector depending on the type previously created above. Hint: You should do this in the loop that reads the data.
+
+10. After you finish processing the data in the file or input ends, use a loop to print the data in the arrays or vectors. 
+   * Show a Heading for each array or vector. E.g. ‘The numbers are: ‘
+   * Show 10 values on each line with commas in between and a space after each comma.
+   * Leave a blank line between each array or vector’s data.
+
+
+# Example Output
+```
+Homework 5: Enumerated Types by Rob Schmicker
+
+// Handle user input here of numbers, letters, symbols, and whitespace
+// Either from a file or keyboard
+
+The numbers are: 1, 2, 3, 3, 6, 1, 0, 9, 3, 7, 
+5, 8, 3, 7, 5 
+
+The Letters are: i, n, p, u, t, t, x, t, C, r, 
+e, a, t, e, d, o, n, M, a, y, 
+A, u, t, h, o, r, L, P, a, g, 
+e, d, n, s, j, l, g, f, h, d, 
+j, l 
+
+The Symbols are: ., :, ,, :, ^, #, @, %, @, %, 
+&, ^
+
+Thanks for running my program, Good bye!
+```
+
+1. **Follow Professional Standards:** For details on how programming style, see the Programming Style Guide. Put your name in your program block comment at the top. Use logical variable names and function names – do not make me guess. Indent properly. Greet the user with the name of the program, and your name. Indicate that the program ended normally by saying Bye or thanking the user for using your program. Do not forget the block comments for each function. Use in-line comments as required.
+
+1. **Optional Challenge (this is not simple, up to +3 extra credit)**:
+   * Allow integer or real number, or string to be input. **Detect the type of data** and **save it in an array or vector of a matching type**.
+   * Use the enumerated type variable to control your program. Read the keyboard input and read the entire value up to the next whitespace as a word or number and classify the data as follows:
+
+1. You can use a structure to group the input value with the enum with its type in your array or vector.
+   * Hint: Read each value as a word, then figure out its type. Once you know the type you can use the proper C++ conversion function to change it to that type and put it in the array or vector.
+   * integers in an array or vector of intergers
+   * real numbers in an array or vector of double
+   * strings in an array or vector of strings.
+
+# Submitting your program in Replit.com
+1. If you wrote this program using an IDE on your computer, copy the code and paste it into the main.cpp file (see the list of files to the left).
+1. Click the run button above the code, the output appears in the right side (black background).
+1. On the left there is a checkmark, click this and choose Run Tests. When you run the tests you will see either passed or failed and you will have the option to see how your program output is different from the test.
+   * Repl.it has an automated testing system that checks your program output against my solution.
+   * Repl.it will show you where your output is not the same as what was expected (click the button). If the differences are superficial, you can submit your program and I will give you the credit you earned.
+   * However, it is not enough to match the output. If your program does not follow the requirements you will not get full credit. Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), you should have comment blocks and in-line comments as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc. See the Programming Style Guide for more information. 
+   * The submit button is in the upper right corner. You must submit for me to see your program.
+Post in the Canvas discussion forum or email the TA or me for help). **If the only difference is your name or small formatting difference, submit your program** and I will give you the credit you earned. I expect there will be differences between student solutions, in fact I would be alarmed if there were no differences.
+
+   * **Note, it is not enough to match the output. If your program does not follow the requirements you will not get full credit.** Your program must have been programmed correctly (if I asked for a loop, I expect you to have one), have professional comment blocks, and in-line comments as needed, use clear variable names that enhance code clarity, use variables of the correct type for each piece of data, etc.

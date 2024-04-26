@@ -1,0 +1,275 @@
+Test plan for controller portion of a basketball ticket management system.
+
+****************
+1. data1.txt is empty, user enters data to populate 3 objects and exits program, output1.txt displays the 3 objects entered by the user
+
+// Input File Contents
+
+  N/A
+
+// End Input File Contents
+
+// Console output
+
+  File failed to open or is empty...
+  
+  Welcome to Basketball Ticket manager by Anthony Mauro and Kevin Harper! 
+  
+  Use the menu below to manage tickets: 
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  Kevin
+  Please Enter Age: 
+  22
+  Please Enter Ticket Price: 
+  $314.52
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  0
+  Please Enter Purchase Date: 
+  xx/ff/52
+  Try again...
+  Please Enter Purchase Date: 
+  2/23/18
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  Anthony
+  Please Enter Age: 
+  23
+  Please Enter Ticket Price: 
+  $301.16
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  1
+  Please Enter Purchase Date: 
+  3/14/22
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  John
+  Please Enter Age: 
+  69
+  Please Enter Ticket Price: 
+  $690.21
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  54
+  Try again...
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  0
+  Please Enter Purchase Date: 
+  1/12/14
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  4
+  
+  Remember to brush your teeth!
+
+// End Console Output
+
+// File output
+
+  Kevin,22,314.52,0,2/23/18
+  Anthony,23,301.16,1,3/14/22
+  John,69,690.21,0,1/12/14
+
+// End File Output
+
+****************
+2. data2.txt contains data to populate 5 objects, user does not enter any new data, output2.txt displays the same 5 objects as data2.txt
+
+// Input File Contents
+
+  Bill,51,232.43,0,12/2/22
+  Ronald,89,194.30,0,4/3/23
+  Garcia,13,187.65,0,6/5/22
+  Sampson,21,112.16,1,3/1/23
+  Thomas,27,234.32,0,7/19/22
+
+// End Input File Contents
+
+// Console output
+
+  Welcome to Basketball Ticket manager by Anthony Mauro and Kevin Harper! 
+  
+  Use the menu below to manage tickets: 
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  4
+  
+  Remember to brush your teeth!
+
+// End Console Output
+
+// File output
+
+  Bill,51,232.43,0,12/2/22
+  Ronald,89,194.3,0,4/3/23
+  Garcia,13,187.65,0,6/5/22
+  Sampson,21,112.16,1,3/1/23
+  Thomas,27,234.32,0,7/19/22
+
+// End File Output
+
+****************
+3. data3.txt contains data to populate 5 objects (can be a copy pasta of data2.txt), the user enters 5 new objects, output3.txt displays 10 objects.
+
+// Input File Contents
+
+  Bill,51,232.43,0,12/2/22
+  Ronald,89,194.30,0,4/3/23
+  Garcia,13,187.65,0,6/5/22
+  Sampson,21,112.16,1,3/1/23
+  Thomas,27,234.32,0,7/19/22
+
+// End Input File Contents
+
+// Console output
+
+  Welcome to Basketball Ticket manager by Anthony Mauro and Kevin Harper! 
+  
+  Use the menu below to manage tickets: 
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  Jimmy
+  Please Enter Age: 
+  29
+  Please Enter Ticket Price: 
+  $106.17
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  1
+  Please Enter Purchase Date: 
+  2/29/21
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  Johnny
+  Please Enter Age: 
+  23
+  Please Enter Ticket Price: 
+  $419.1
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  0
+  Please Enter Purchase Date: 
+  2/29/21
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1     
+  Please Enter First Name (exclude symbols): 
+  Jerome
+  Please Enter Age: 
+  88
+  Please Enter Ticket Price: 
+  $312.16
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  1
+  Please Enter Purchase Date: 
+  1/14/19
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1
+  Please Enter First Name (exclude symbols): 
+  Ronaldo
+  Please Enter Age: 
+  47
+  Please Enter Ticket Price: 
+  $109.09
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  1
+  Please Enter Purchase Date: 
+  12/12/24
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  1       
+  Please Enter First Name (exclude symbols): 
+  Harry
+  Please Enter Age: 
+  60
+  Please Enter Ticket Price: 
+  $204.69
+  Please enter 1 for true or 0 for false if individual attended more than 3 games: 
+  1
+  Please Enter Purchase Date: 
+  4/19/23            
+  
+  Ticket Choices 
+  1)Add New Ticket 
+  2)Search tickets wth date 
+  3)Print out all tickets 
+  4)Quit
+  Enter 1, 2, 3, or 4
+  4
+  
+  Remember to brush your teeth!
+
+// End console output
+
+// File output
+
+  Bill,51,232.43,0,12/2/22
+  Ronald,89,194.3,0,4/3/23
+  Garcia,13,187.65,0,6/5/22
+  Sampson,21,112.16,1,3/1/23
+  Thomas,27,234.32,0,7/19/22
+  Jimmy,29,106.17,1,2/29/21
+  Johnny,23,419.1,0,2/29/21
+  Jerome,88,312.16,1,1/14/19
+  Ronaldo,47,109.09,1,12/12/24
+  Harry,60,204.69,1,4/19/23
+
+// End File output
